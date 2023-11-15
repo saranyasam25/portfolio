@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap 5 link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Jquery link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link css file -->
+    <link rel="stylesheet" href="./public/css/style.min.css" />
+    <!-- icon -->
+    <link rel="icon" href="./assets/images/profile.png">
+    <!-- Title -->
+    <title>Saranya Portfolio</title>
+</head>
+
+<body>
+    <i class="fas fa-bars mobile-nav-toggle"></i>
+    <aside class="side-bar ">
+        <div class="profile-pic">
+            <img src="/public/images/DSC_0024 - Copy.JPG" alt="Image" width="100px" height="100px" class="mine img-fluid rounded-circle">
+            <h4 class="text-light text-white text-center ">SARANYA</h>
+                <div class="social-medias text-center mt-3">
+                    <a href="#" target="_blank" class="twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" target="_blank" class="fb">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" target="_blank" class="insta">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/saranya25/" target="_blank" class="linked">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/saranyasam25" target="_blank" class="git">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+        </div>
+
+        <div class="nav-menu navbar" id="navbar">
+            <ul>
+                <li>
+                    <a href="#home" class="nav-link scroll-to">
+                        <iconify-icon icon="bx:home" class="menus-icon"></iconify-icon>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link scroll-to">
+                        <iconify-icon icon="ant-design:user-outlined" class="menus-icon"></iconify-icon>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#resume" class="nav-link scroll-to">
+                        <iconify-icon icon="simple-line-icons:doc" class="menus-icon"></iconify-icon>
+                        <span>Resume</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link scroll-to">
+                        <iconify-icon icon="bx:book-content" class="menus-icon"></iconify-icon>
+                        <span>Portfolio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link scroll-to">
+                        <iconify-icon icon="carbon:email" class="menus-icon"></iconify-icon>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="sidebar-bottom text-center pt-5 d-none d-xl-block">
+            <p class="pt-4">Designed by Saranya S</p>
+        </div>
+
+    </aside>
+    <main id="main">
+        <!-- Home star t-->
+        <section class="d-flex flex-column align-items-center justify-content-center page-section" id="home">
+            <div class="home-container text-white">
+                <h1 class="text-white fa-3x static-txt">SARANYA S</h1>
+                <div class="ani-letter d-flex align-baseline">
+                    <div class="static-txt">I'm a </div>
+                    <div class="rotate-words pt-1">
+                        <span id="typewriter" data-array=""></span>
+                        <span class="cursor"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Home End -->
+
+        <!-- about start -->
+        <section class="about p-md-4 page-section" id="about">
+            <div class="container">
+                <h2 class="heading">About</h2>
+                <div class="heading-line mt-3"></div>
+                <p class="para pt-4">I am a qualified and professional full-stack developer with two years of experience in web development and four years of expertise in website design. I am also a dedicated team player.</p>
+                <div class="row py-3">
+                    <div class="col-12 col-lg-4 mb-2 mb-md-0 text-center">
+                        <img src="/public/images/DSC_0024 - Copy.JPG" alt="about" class="img-fluid" width="200px" height="200px" >
+                    </div>
+                    <div class="col-lg-8 pt-4 pt-lg-0 content">
+                        <h3 class="about-head">Full Stack Developer</h3>
+                        <div class="row pt-3">
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li>
+                                        <iconify-icon icon="fa-solid:birthday-cake" class="about-icon"></iconify-icon>
+                                        <strong>Birthday:</strong> <span>25 Sep
+                                            1991</span>
+                                    </li>
+                                    <li>
+                                        <i class="fab fa-github about-icon"></i>
+                                        <strong>GitHub:</strong>
+                                        <span>https://github.com/saranya25</span>
+                                    </li>
+                                    <li>
+                                        <iconify-icon icon="fluent:call-28-regular" class="about-icon"></iconify-icon>
+                                        <strong>Phone:</strong> <span>+91 9710273995
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <iconify-icon icon="akar-icons:location" class="about-icon"></iconify-icon>
+                                        <strong>City:</strong> <span>Chennai,
+                                            Tamilnadu, India</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li>
+                                        <iconify-icon icon="ant-design:user-outlined" class="about-icon"></iconify-icon>
+                                        <strong>Age:</strong> <span>32</span>
+                                    </li>
+                                    <li>
+                                        <iconify-icon icon="icon-park-outline:degree-hat" class="about-icon">
+                                        </iconify-icon><strong>Degree:</strong> <span> Bachelor of Engineering</span>
+                                    </li>
+                                    <li>
+                                        <iconify-icon icon="carbon:email" class="about-icon"></iconify-icon>
+                                        <strong>Email:</strong>
+                                        <span>saranyasamit.s@gmail.com</span>
+                                    </li>
+                                    <li>
+                                        <iconify-icon icon="simple-icons:freelancer" class="about-icon"></iconify-icon>
+                                        <strong>Freelance:</strong>
+                                        <span>Available</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end about section -->
+
+        <!-- Start Skills -->
+        <div class="skills py-3 py-md-4 px-md-4  " >
+            <div class="container">
+                <h2 class="heading">Skills</h2>
+                <div class="heading-line mt-3"></div>
+                <div class="row skills-content mt-4">
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up">
+                        <div class="progress"> <span class="skill">HTML <i class="val">90%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                    aria-valuemax="90" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="progress"> <span class="skill">JAVASCRIPT <i class="val">72%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="72" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 72%;"></div>
+                            </div>
+                        </div>
+                        <div class="progress"> <span class="skill">Bootstrap 5 <i class="val">75%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="progress"> <span class="skill">Laravel <i class="val">85%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="progress"> <span class="skill">FIGMA <i class="val">85%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                        <div class="progress"> <span class="skill">CSS <i class="val">80%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="progress"> <span class="skill">JQUERY <i class="val">65%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 65%;"></div>
+                            </div>
+                        </div>
+                        <div class="progress"> <span class="skill">SCSS <i class="val">70%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="progress"> <span class="skill">MY SQL <i class="val">70%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="progress"> <span class="skill">Photoshop <i class="val">55%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 55%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Skills -->
+
+        <!-- Start Resume section -->
+        <section class="resume px-md-4 page-section" id="resume">
+            <div class="container">   
+                         <h2 class="heading">Resume</h2>
+                        <div class="heading-line mt-3"></div>       
+                <div class="row">
+                   
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="resume-title py-4">Professional Experience</h3>
+                        <div class="resume-item ">
+                            <h5>Junior Web Developer</h5>
+                            <p><strong>GoWebEz, <em>Chennai</em></strong> | Remote</p>
+                            <button class="mb-3">Jun 2022 - Oct 2023</button>
+                            <h5>PROJECTS</h5>
+                            <ul>
+                                <p><strong>GWT</strong></p>
+                                <li class="">Worked in the development of water and energy management platform in restaurants.</li>
+                                <li class="">Experienced in email campaign management. </li>
+                            </ul>
+                            <ul>
+                                <p><strong>TrackEz</strong></p>
+                                <li class="">Worked in attendance tracking website for working employees</li>
+                            </ul>
+                            <ul>
+                                <p><strong>MedrxEz</strong></p>
+                                <li class="">Worked in the website creation platform for healthcare facilities center in multiple countries. </li>
+                            </ul>
+                            <ul>
+                                <p><strong>Campaign Developer</strong></p>
+                                <li class="">A/B tested various campaign elements to optimize performance and enhance overall campaign success.</li>
+                                <li>Provided regular reports and analysis on campaign performance, highlighting key insights and recommending improvements.</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                     <div class="col-lg-6 aos-init aos-animate mt-5 pt-5" data-aos="fade-up">
+                        <div class="resume-item">
+                            <h5>Web Designer</h5>
+                            <p><strong>Ilogics Technologies, <em>Chennai</em></strong></p>
+                            <button class="mb-3">Jun 2014 - Oct 2018</button>
+                            <ul>
+                                <li class="">Gathered specifications and other key details to meet requirements of site
+                                    development.</li>
+                                <li class="">Develop websites. Develop writing and editing for websites.</li>
+                                <li class="">Propose comprehensive web development plans to various clients
+                                    ranging from individuals, artists and businesses.</li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h5>Mail Coordinator</h5>
+                            <p><strong>Aum Vijaya Agencies India Pvt. Ltd., <em>Chennai</em></strong></p>
+                            <button class="mb-3">Feb 2013 - May 2014</button>
+                            <ul>
+                                <li>Providing Quotations for various clients.</li>
+                                <li class="">Released registered and special delivery letters and packages to
+                                    designated recipients and obtained signatures for release.</li>
+                                <li class="">Responding to mail from clients.</li>
+                                <li class="">Designing Websites and maintaining customer database.</li>
+                                <li>Importing and Exporting Products from Various Countries.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                   
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                        <div class="resume-item ">
+                            <h5>Software Trainee</h5>
+                            <p><strong>Zoho Corp Pvt Ltd., <em>Chennai</em></strong></p>
+                            <button class="mb-3">Jul 2012 - Jan 2013</button>
+                            <ul>
+                                <li>Worked on temporary basis in Online Marketing needs for Zoho</li>
+                                <li>Collaborated effectively with members of software development team and
+                                    personnel in other departments.</li>
+                                <li>Underwent training on OpenCMS.</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                     <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up">
+                        <h3 class="resume-title py-4">Education</h3>
+                        <div class="resume-item pb-5">
+                            <h5 class="">SECONDARY SCHOOL</h5>
+                            <p>Little Holy Angels Higher Secondary School</p>
+                            <button>2006 - 2008</button>
+                        </div>
+                        <div class="resume-item pb-0">
+                            <h5 class="">BACHELOR OF ENGINEERING</h5>
+                            <p>Sri Venkateshwara College of Engineering and Technology</p>
+                            <button>2008 - 2012</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="lan">
+                    <h3 class="resume-title pt-5 pb-3">Languages Know</h3>
+                    <div class="row skills-content mt-4">
+                        <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up">
+                            <div class="progress"> <span class="skill">English <i class="val">80%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="progress"> <span class="skill">Tamil <i class="val">90%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                            <div class="progress"> <span class="skill">Hindi <i class="val">50%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 50%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Resume section -->
+
+        <!-- Start Portfolio -->
+        <section class="portfolio px-md-4 page-section" id="portfolio">
+            <div class="container">
+                <h2 class="heading">Portfolio</h2>
+                <div class="heading-line mt-3"></div>
+                <div class="row pt-5">
+                    <div class="col-12 col-lg-6">
+                        <img src="/public/images/GWT_login.png" alt="web" class="img-fluid portfolio-img" />
+                        <div class="figma py-4 d-flex align-items-center">
+                            <i class="fas fa-folder"></i>
+                            <!-- <iconify-icon icon="logos:figma"  width="30" height="30"></iconify-icon> -->
+                            <p class="ps-2 m-0 pb-0">GWT</p>
+                        </div>
+                        <div class="group-button d-flex justify-content-center">
+                           <a href="https://gwt.sakthi.io/" target="_blank"><button class="btn mx-4" type="button"><i class="fa-solid fa-eye pe-2"></i>Preview</button></a> 
+                            <!-- <a href="./assets/files/SNH Hospital" download><button class="btn download" type="button"><i class="fa-solid fa-arrow-down pe-2"></i>Download</button></a> -->
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 pt-4 pt-lg-0">
+                        <img src="/public/images/medrxez_projects.png" alt="web" class="img-fluid portfolio-img" />
+                        <div class="figma py-4 d-flex align-items-center">
+                            <i class="fas fa-folder"></i>
+                            <p class="ps-2 m-0 pb-0">MedRxEz</p>
+                        </div>
+                        <div class="group-button d-flex justify-content-center">
+                           <a href="https://medrxez.sakthi.io/" target="_blank"><button class="btn mx-4" type="button"><i class="fa-solid fa-eye pe-2"></i>Preview</button></a> 
+                            <!-- <a href="./assets/files/Travel" download><button class="btn download" type="button"><i class="fa-solid fa-arrow-down pe-2"></i>Download</button></a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-12 col-lg-6">
+                        <img src="/public/images/mercuhr_projects.PNG" alt="web" class="img-fluid portfolio-img" />
+                        <div class="figma py-4 d-flex align-items-center">
+                            <i class="fas fa-folder"></i>
+                            <!-- <iconify-icon icon="logos:figma"  width="30" height="30"></iconify-icon> -->
+                            <p class="ps-2 m-0 pb-0">MercuHr</p>
+                        </div>
+                        <div class="group-button d-flex justify-content-center">
+                           <a href="https://mercuhr.sakthi.io/" target="_blank"><button class="btn mx-4" type="button"><i class="fa-solid fa-eye pe-2"></i>Preview</button></a> 
+                            <!-- <a href="./assets/files/SNH Hospital" download><button class="btn download" type="button"><i class="fa-solid fa-arrow-down pe-2"></i>Download</button></a> -->
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 pt-4 pt-lg-0">
+                        <img src="/public/images/men_salon.PNG" alt="web" class="img-fluid portfolio-img" />
+                        <div class="figma py-4 d-flex align-items-center">
+                            <iconify-icon icon="logos:figma"  width="30" height="30"></iconify-icon>
+                            <p class="ps-2 m-0 pb-0">Figma</p>
+                        </div>
+                        <div class="group-button d-flex justify-content-center">
+                           <a href="https://www.figma.com/proto/BeaT4KUcdEtVG3IHzTLdVS/Salon-For-Men?page-id=0%3A1&type=design&node-id=84-233&viewport=526%2C369%2C0.5&t=51MWmzxFBXrTPttv-1&scaling=scale-down-width" target="_blank"><button class="btn mx-4" type="button"><i class="fa-solid fa-eye pe-2"></i>Preview</button></a> 
+                            <!-- <a href="./assets/files/Travel" download><button class="btn download" type="button"><i class="fa-solid fa-arrow-down pe-2"></i>Download</button></a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-12 col-lg-6 pt-4 pt-lg-0">
+                        <img src="/public/images/salon_for_women.PNG" alt="web" class="img-fluid portfolio-img" />
+                        <div class="figma py-4 d-flex align-items-center">
+                            <iconify-icon icon="logos:figma"  width="30" height="30"></iconify-icon>
+                            <p class="ps-2 m-0 pb-0">Figma</p>
+                        </div>
+                        <div class="group-button d-flex justify-content-center">
+                           <a href="https://www.figma.com/proto/82YSxJOGU4O1bqgFPhFQDU/Salon-for-Women?page-id=0%3A1&type=design&node-id=1-2&viewport=424%2C333%2C0.5&t=d9vMAsEylgaiWMFZ-1&scaling=scale-down-width&starting-point-node-id=1%3A2" target="_blank"><button class="btn mx-4" type="button"><i class="fa-solid fa-eye pe-2"></i>Preview</button></a> 
+                            <!-- <a href="./assets/files/Travel" download><button class="btn download" type="button"><i class="fa-solid fa-arrow-down pe-2"></i>Download</button></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Portfolio -->
+
+        <!-- Start contact -->
+        <section class="contact px-md-4 page-section" id="contact">
+            <div class="container">
+                <h2 class="heading">Contact</h2>
+                <div class="heading-line mt-3"></div>
+                <div class="row py-5">
+                    <div class="col-12 col-lg-5">
+                        <div class="card">
+                            <div class="card-details">
+                                <div class="location d-flex">
+                                    <div class="card-circle">
+                                        <iconify-icon icon="akar-icons:location"></iconify-icon>
+                                    </div>
+                                    <div class="card-info ps-3">
+                                        <h5>Location:</h5>
+                                        <small>Chennai, Tamilnadu, India</small>
+                                    </div>
+                                </div>
+                                <div class="location d-flex py-4">
+                                    <div class="card-circle">
+                                        <iconify-icon icon="carbon:email"></iconify-icon>
+                                    </div>
+                                    <div class="card-info ps-3">
+                                        <h5>Email:</h5>
+                                        <small>saranyasamit.s@gmail.com</small>
+                                    </div>
+                                </div>
+                                <div class="location d-flex">
+                                    <div class="card-circle">
+                                        <iconify-icon icon="bi:phone"></iconify-icon>
+                                    </div>
+                                    <div class="card-info ps-3">
+                                        <h5>Call:</h5>
+                                        <small>+91 9710273995</small>
+                                    </div>
+                                </div>
+                                <div class="map mt-4">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31110.47271214349!2d80.16616084635287!3d12.919988572436157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525c1c2ab10c01%3A0x8f33fe8bebe2b89c!2sMedavakkam%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1700035825917!5m2!1sen!2sin"
+                                        width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-7 pt-4 pt-lg-0">
+                        <div class="card">
+                            <form action="https://formsubmit.co/saranyasamit.s@gmail.com" enctype=”text/plain” name=”EmailForm”  method="post" role="form" class="email-form">
+                                <div class="row">
+                                    <div class="form-group col-md-6"> 
+                                        <label for="name" class="form-label">Your Name</label> 
+                                        <input
+                                            type="text" name="name" class="form-control" id="name" required="">
+                                    </div>
+                                    <input type="hidden" name="_captcha" value="false">
+                                    <div class="form-group col-md-6"> <label for="name"  class="form-label">Your Email</label>
+                                        <input type="email" class="form-control" name="email" id="email" required="">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                     <label for="name"  class="form-label">Subject</label> 
+                                     <input type="text" class="form-control" name="subject" id="subject" required="">
+                                </div>
+                                <div class="form-group"> 
+                                    <label for="name"  class="form-label">Message</label>
+                                    <textarea class="form-control" name="message" rows="10" required=""></textarea>
+                                </div>
+                                <!-- <div class="my-3">
+                                    <div class="loading">Loading</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                                </div> -->
+                                <div class="text-center">
+                                    <button type="submit" class="btn" value="Send">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End contact -->
+    </main>
+
+
+    <!-- Link Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+    <!-- Link js  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+
+
+</body>
+
+</html>
